@@ -1,0 +1,3 @@
+gcim win32_bios | format-list *
+gcim Win32_ComputerSystem
+gcim Win32_PhysicalMemory
