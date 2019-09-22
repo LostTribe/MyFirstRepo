@@ -1,5 +1,5 @@
 ﻿#Start PSRemoting 
-Invoke-Command -ComputerName LDNCRIMSSQL1 -Credential $CredentialsEUR -scriptblock { 
+Invoke-Command -ComputerName  -Credential $Credentials -scriptblock { 
 #Run the commands concurrently for each server in the list 
 $CPUInfo = Get-WmiObject Win32_Processor #Get CPU Information 
 $OSInfo = Get-WmiObject Win32_OperatingSystem #Get OS Information 
